@@ -1,0 +1,28 @@
+{
+  "name": "goplanning",
+  "version": "4.1.7",
+  "description": "A multi-site (council) planning application scraper. Which catalogues each council's properties to a JSON file for ingestion to Netgraph",
+  "main": "goplanning.js",
+  "bin": "goplanning.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Showcase-Joz/goPlanning.git"
+  },
+  "scripts": {
+    "start": "node goplanning.js",
+    "restart": "node continue-property-extractor.js",
+    "build": "rm -rf build && pkg . --out-path build",
+    "postbuild": "cp -R ./node_modules/puppeteer/.local-chromium build/chromium && mkdir build/docs && cp ./docs/readme.docx build/docs/ && mkdir build/settings && cp ./settings/council-planning.json build/settings && cp ./settings/config.json build/settings",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": {
+    "name": "Joz",
+    "email": "sunrise.joz77@gmail.com"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "puppeteer": "^5.0.0",
+    "yargs": "^15.4.1"
+  }
+}

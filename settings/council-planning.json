@@ -1,0 +1,60 @@
+[
+  {
+    "id" : 0,
+    "council" : "Adur & Worthing",
+    "shortName" : "adur.worthing",
+    "url" : "https://planning.adur-worthing.gov.uk/online-applications/search.do?action=property&type=atoz&letter=",
+    "internalDocuments" : false
+  },
+  {
+    "id" : 1,
+    "council" : "Aylesbury Vale Area",
+    "shortName" : "aylesbury.vale",
+    "url" : "https://publicaccess.aylesburyvaledc.gov.uk/online-applications/search.do?action=property&type=atoz&letter=",
+    "internalDocuments" : false
+  },
+  {
+    "id" : 2,
+    "council" : "Babergh District",
+    "shortName" : "babergh",
+    "url" : "https://planning.baberghmidsuffolk.gov.uk/online-applications/search.do?action=property&type=atoz&letter=",
+    "internalDocuments" : false
+  },
+  {
+    "id" : 3,
+    "council" : "Basildon",
+    "shortName" : "basildon",
+    "url" : "https://planning.basildon.gov.uk/online-applications/search.do?action=property&type=atoz&letter=",
+    "internalDocuments" : false
+  },
+  {
+    "id" : 4,
+    "council" : "Basingstoke & Deane",
+    "shortName" : "basingstoke.deane",
+    "url" : "https://planning.basingstoke.gov.uk/online-applications/search.do?action=property&type=atoz&letter=",
+    "internalDocuments" : true
+  },
+  {
+    "id" : 5,
+    "council" : "Chesterfield Borough",
+    "shortName" : "chesterfield",
+    "url" : "https://publicaccess.chesterfield.gov.uk/online-applications/search.do?action=property&type=atoz&letter=",
+    "internalDocuments" : true,
+    "docServer" : "https://publicaccess.chesterfield.gov.uk/online-applications/applicationDetails.do?activeTab=documents&keyVal="
+  },
+  {
+    "id" : 6,
+    "council" : "Derby City",
+    "url" : "https://eplanning.derby.gov.uk/online-applications/search.do?action=property&type=atoz&letter=",
+    "internalDocuments" : false,
+    "docServer" : "https://docs.derby.gov.uk/padocumentserver/index.html?caseref="
+  },
+  {
+    "id" : 7,
+    "council" : "Doncaster Metropolitan Borough",
+    "shortName" : "doncaster",
+    "url" : "https://planning.doncaster.gov.uk/online-applications/search.do?action=property&type=atoz&letter=",
+    "internalDocuments" : false,
+    "docServer" : "http://pad.doncaster.gov.uk/AniteIM.WebSearch/ExternalEntryPoint.aspx?SEARCH_TYPE=1&DOC_CLASS_CODE=DP&folder1_ref="
+  }
+]
